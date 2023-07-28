@@ -20,7 +20,7 @@ Icon Vista is a simple and efficient favicon grabber that allows you to fetch an
 
 ## Usage
 
-You can use Icon Vista directly from your browser: [Icon Vista - Favicon Grabber](https://icon-vista-by-aman.netlify.app/).
+You can use Icon Vista directly from your browser: [Icon Vista - Favicon Grabber](https://icon-vista-by-aman.netlify.app/)
 
 ## Compatibility
 
