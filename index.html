@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/input.css" />
+    <link rel="shortcut icon" href="grab-favicon.png" type="image/x-icon" />
+    <script type="module" src="js/main.js"></script>
+    <title>Icon Vista</title>
+  </head>
+  <body class="bg-gradient-to-br from-[#74ebd5] to-[#ACB6E5]">
+    <header>
+      <h1
+        class="absolute text-6xl md:text-8xl text-white font-semibold translate-x-[-50%] left-[50%] w-max top-[5%]"
+      >
+        Icon Vista
+      </h1>
+    </header>
+    <main>
+      <div class="h-[100dvh] grid place-content-center">
+        <form
+          class="flex justify-center items-center flex-col md:flex-row gap-4"
+        >
+          <input
+            type="text"
+            id="urlInput"
+            placeholder="Enter website URL"
+            class="rounded-sm h-10 px-3 text-lg outline-none caret-[coral]"
+          />
+          <button
+            class="grab h-10 rounded-sm px-2 bg-[#ff7f50] text-white font-semibold hover:bg-[#ff936c] duration-300 active:scale-95 w-[8rem]"
+            type="submit"
+          >
+            Grab Favicon
+          </button>
+        </form>
+        <div
+          class="h-[64px] w-[64px] mx-auto flex justify-center items-center my-4 border-2 border-[coral] bg-white"
+        >
+          <img id="faviconImg" src="" alt="Favicon" class="hidden" />
+        </div>
+        <button
+          class="download font-bold h-10 px-2 bg-white hover:bg-gray-100 duration-200 active:scale-95 text-[coral] w-[8rem] mx-auto"
+        >
+          Download
+        </button>
+      </div>
+    </main>
+  </body>
+</html>
